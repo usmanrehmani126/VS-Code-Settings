@@ -1,0 +1,140 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.activityBar.location": "hidden",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "single",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.colorCustomizations": {
+    "editorSuggestWidget.selectedBackground": "#241f30",
+    "sideBar.background": "#191521",
+    "list.activeSelectionBackground": "#241f30",
+    "list.inactiveSelectionBackground": "#241f30",
+    "list.focusBackground": "#241f30",
+    "list.hoverBackground": "#241f30",
+    "terminalCursor.foreground": "#A277FF",
+    "editorCursor.background": "#000000"
+  },
+
+  "editor.lineNumbers": "off",
+  "editor.stickyScroll.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "Dank Mono",
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.matchBrackets": "never",
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": false,
+  "editor.showFoldingControls": "never",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.cursorBlinking": "solid",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2.5,
+  "editor.tabCompletion": "on",
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestionsDelay": 999999999,
+  "editor.fontWeight": "bold",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestions": {
+    "other": "off"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "window.zoomLevel": 2,
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+
+  "breadcrumbs.enabled": false,
+
+  "explorer.decorations.badges": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  "git.decorations.enabled": false,
+
+  "scm.diffDecorations": "none",
+
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "accessibility.signals.sounds.volume": 0,
+
+  "extensions.ignoreRecommendations": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.external.osxExec": "Warp.app",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, Dank Mono",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.fontSize": 14,
+
+  "material-icon-theme.hidesExplorerArrows": true,
+
+  "apc.font.family": "Dank Mono",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 20,
+      "y": 16
+    }
+  },
+  "apc.listRow": {
+    "lists": ["explorer-folders-view", "quick-input-list", "results"],
+    "height": 30
+  },
+  "apc.stylesheet": {
+    ".title-actions": "display: none !important;",
+    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important;",
+    ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important;",
+    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important;",
+    ".sidebar .title-label": "padding: 0 !important;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important;",
+    ".sidebar": "border: none !important;",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #F8B4CD 10%, #A277FF 100%) !important;",
+    ".quick-input-list-row div": "display: flex !important; align-items: center !important;",
+    ".panel .composite.title": "visibility: hidden !important;",
+    ".monaco-editor .scroll-decoration": "display: none !important;",
+    ".monaco-scrollable-element > .shadow.top": "display: none !important;",
+    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important;",
+    ".inline-no-tabs-placeholder": "background: #191521 !important;",
+    ".monaco-list-row.focused": "outline: none !important;",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important;",
+    ".monaco-split-view2.separator-border.horizontal > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before": "display: none !important;",
+    ".monaco-split-view2.separator-border.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before": "display: none !important;",
+    ".monaco-workbench .pane-body.integrated-terminal .split-view-view": "border: none !important;",
+    ".search-view .linematch .matchLineNum.show": "display: flex; align-items: center;"
+  }
+}
